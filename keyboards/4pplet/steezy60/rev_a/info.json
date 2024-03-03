@@ -25,9 +25,6 @@
        "60_tsangan_hhkb"
     ],
     "diode_direction": "COL2ROW",
-    "features": {
-        "key_lock": true
-    },
     "matrix_pins": {
         "cols": ["C4", "C6", "B7", "B6", "B5", "B4", "B3", "B2", "B1", "D6", "D5", "D4", "D2", "D1"],
         "rows": ["C2", "D0", "B0", "C7", "C5"]
@@ -41,7 +38,8 @@
         "extrakey": true,
         "mousekey": false,
         "nkro": true,
-        "rgblight": true
+        "rgblight": true,
+        "key_lock": true
     },
     "rgblight": {
         "led_count": 12,
