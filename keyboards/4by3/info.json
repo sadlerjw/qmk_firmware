@@ -8,6 +8,12 @@
         "pid": "0x2019",
         "device_version": "0.0.1"
     },
+    "features": {
+        "extrakey": true,
+        "nkro": true,
+        "console": true,
+        "command": true
+    },
     "matrix_pins": {
         "cols": ["C6", "D7", "E6", "B4"],
         "rows": ["D1", "D0", "D4"]
